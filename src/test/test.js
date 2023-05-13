@@ -13,7 +13,7 @@ test('checking create character', () => {
   expect(demon.level).toBe(1);
   expect(demon.attack).toBe(10);
   expect(demon.defence).toBe(40);
-})
+});
 
 test('checking name length', () => {
   expect(() => new Magician('М', 'Magician')).toThrowError('Переданы неверные данные');
